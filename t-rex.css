@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  font-family: "Press Start 2P", cursive;
+}
+
+.grid {
+  height: 200px;
+  width: 1000px;
+  position: relative;
+}
+/* 
+#background {
+  width: 1000px;
+  height: 200px;
+} */
+
+.dino {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-image: url("t-rex.png");
+  background-size: contain;
+}
+
+.cacti {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  background-image: url("cacti.png");
+  background-size: contain;
+}
+
+.score {
+  position: absolute;
+  font-size: 15px;
+}
+
+.over {
+  position: absolute;
+  font-size: 15px;
+  left: 450px;
+  top: 65px;
+  opacity: 0;
+}
